@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frameempat"
+    tools:context=".atlet">
+
+
+    <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical" >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="80dp"
+           android:layout_marginTop="50dp"
+           android:gravity="center"
+           android:text="Welcome to the app!"
+           android:textColor="#FFC107"
+           android:textSize="24sp" />
+       <ImageView
+           android:layout_width="200dp"
+           android:layout_height="320dp"
+           android:src="@drawable/fotoaku"
+           android:layout_gravity="center"
+           android:layout_marginTop="10dp"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Miranti Agustina"
+           android:layout_gravity="center"
+           android:textSize="25sp"
+           android:textColor="#000000" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="09031381722092"
+           android:layout_gravity="center"
+           android:textSize="25sp"
+           android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gelumbang, 19 Agustus 1999"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="15dp"
+            android:onClick="MainActivity"
+            android:text="back"
+            android:textAlignment="center" />
+
+   </LinearLayout>
+</ScrollView>
